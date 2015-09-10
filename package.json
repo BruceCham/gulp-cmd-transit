@@ -1,0 +1,40 @@
+{
+  "name": "gulp-cmd-transit",
+  "version": "1.0.0",
+  "description": "Transport cmd js,pick up the id for files,and add callback for id.Base on gulp-seajs-transport",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha test/transport-spec.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/brucecham/gulp-cmd-transit"
+  },
+  "keywords": [
+    "gulpplugin",
+    "seajs",
+    "transport",
+    "cmd",
+    "brucecham"
+  ],
+  "dependencies": {
+    "gulp-util": "^3.0.0",
+    "through2": "^0.6.1",
+    "cmd-util": "^0.3.13"
+  },
+  "devDependencies": {
+    "chai": "^2.3.0",
+    "coveralls": "^2.11.1",
+    "event-stream": "^3.1.7",
+    "gulp": "^3.8.7",
+    "gulp-util": "^3.0.1",
+    "istanbul": "^0.3.2",
+    "mocha": "^1.21.4"
+  },
+  "bugs": {
+    "url": "https://github.com/brucecham/gulp-cmd-transit/issues"
+  },
+  "homepage": "https://github.com/brucecham/gulp-cmd-transit",
+  "author": "brucecham",
+  "license": "ISC"
+}
